@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="pt-16 md:pt-24 pb-20 bg-gradient-to-b from-blue-50 to-white">
+    <section className="pt-16 md:pt-24 pb-20 bg-gradient-to-b from-secondary/30 to-white">
       <div className="container-custom">
         <div className="flex flex-col items-center text-center max-w-5xl mx-auto">
           {/* Small feature pill */}
@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6">
             Magically simplify
             <br />
-            communication in Slack
+            communication in <span className="gradient-text">Slack</span>
           </h1>
           
           {/* Subtitle */}
