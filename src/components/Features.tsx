@@ -1,33 +1,36 @@
-
-import React from 'react';
-import { MessageSquare, Zap, Check, Sparkles, FileText } from 'lucide-react';
+import { MessageSquare, Zap, Check, Sparkles, FileText } from "lucide-react";
 
 const features = [
   {
     icon: <MessageSquare className="h-8 w-8 text-primary" />,
     title: "Smart Rephrasing",
-    description: "Instantly rephrase your messages to sound more professional, friendly, or direct."
+    description:
+      "Instantly rephrase your messages to sound more professional, friendly, or direct.",
   },
   {
     icon: <Check className="h-8 w-8 text-primary" />,
     title: "Grammar Fixing",
-    description: "Automatically catch and fix grammar, spelling, and punctuation errors before sending."
+    description:
+      "Automatically catch and fix grammar, spelling, and punctuation errors before sending.",
   },
   {
     icon: <Zap className="h-8 w-8 text-primary" />,
     title: "Quick Tone Adjustments",
-    description: "Choose from multiple tones to match the context of your conversation."
+    description:
+      "Choose from multiple tones to match the context of your conversation.",
   },
   {
     icon: <Sparkles className="h-8 w-8 text-primary" />,
     title: "AI-Powered",
-    description: "Leveraging advanced AI to understand context and generate natural-sounding text."
+    description:
+      "Leveraging advanced AI to understand context and generate natural-sounding text.",
   },
   {
     icon: <FileText className="h-8 w-8 text-primary" />,
     title: "Slack Integration",
-    description: "Seamlessly integrates with Slack, available whenever you're composing a message."
-  }
+    description:
+      "Seamlessly integrates with Slack, available whenever you're composing a message.",
+  },
 ];
 
 const Features = () => {
@@ -35,16 +38,20 @@ const Features = () => {
     <section id="features" className="section-spacing bg-muted/30">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold"><span className="gradient-text">Features</span> that enhance your messaging</h2>
+          <h2 className="text-3xl font-bold">
+            <span className="gradient-text">Features</span> that enhance your
+            messaging
+          </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Rewordit gives you powerful tools to improve your communication in Slack.
+            RewordIt gives you powerful tools to improve your communication in
+            Slack.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="feature-card"
               style={{ animationDelay: `${index * 100}ms` }}
             >
@@ -62,3 +69,4 @@ const Features = () => {
 };
 
 export default Features;
+

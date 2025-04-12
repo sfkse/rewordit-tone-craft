@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { Button } from "@/components/ui/button";
 
 const CTA = () => {
@@ -11,11 +9,16 @@ const CTA = () => {
             Ready to enhance your Slack communication?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-            Join thousands of professionals who use Rewordit to communicate more effectively on Slack.
+            Join thousands of professionals who use RewordIt to communicate more
+            effectively on Slack.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="button-primary text-base py-6 px-8">Add to Slack</Button>
-            <Button variant="outline" className="text-base py-6 px-8">Learn More</Button>
+            <Button className="button-primary text-base py-6 px-8">
+              Add to Slack
+            </Button>
+            <Button className="button-secondary text-base py-6 px-8 border border-primary hover:bg-primary hover:text-white">
+              Learn More
+            </Button>
           </div>
           <p className="mt-6 text-sm text-muted-foreground">
             No credit card required • Free plan available
@@ -27,3 +30,4 @@ const CTA = () => {
 };
 
 export default CTA;
+
