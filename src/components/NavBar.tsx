@@ -8,19 +8,19 @@ const NavBar = () => {
         <Logo />
         <div className="hidden md:flex items-center space-x-8">
           <a
-            href="#features"
+            href="/#features"
             className="text-sm font-medium text-[#8E9196] hover:text-[#2162C6] transition-colors"
           >
             Features
           </a>
           <a
-            href="#how-it-works"
+            href="/#how-it-works"
             className="text-sm font-medium text-[#8E9196] hover:text-[#2162C6] transition-colors"
           >
             How It Works
           </a>
           <a
-            href="#pricing"
+            href="/#pricing"
             className="text-sm font-medium text-[#8E9196] hover:text-[#2162C6] transition-colors"
           >
             Pricing

@@ -4,13 +4,14 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 
 const includedFeatures = [
-  "Forever message history",
-  "Unlimited team members",
+  "Rephrase up to 50 messages per month",
+  "Full rewrite history and insights",
+  "Instant Slack integration",
+  "Access to advanced tone settings",
+  // "Use or create custom rewriting templates",
+  // "API access for personal automation",
   "Priority support",
-  "Advanced tone settings",
-  "Custom templates",
-  "API access",
-  "Enterprise-grade security",
+  "Secure, reliable service with 99.9% uptime",
   "99.9% uptime SLA",
 ];
 

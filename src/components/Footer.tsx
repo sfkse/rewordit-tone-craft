@@ -19,36 +19,36 @@ const Footer = () => {
             <h3 className="font-medium mb-4">Product</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#features"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#pricing"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#integrations"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Integrations
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#changelog"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Changelog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -57,28 +57,28 @@ const Footer = () => {
             <h3 className="font-medium mb-4">Company</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#about"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#blog"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/#contact"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
